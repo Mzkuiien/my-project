@@ -1,0 +1,69 @@
+.text{
+  margin-bottom: 70px;  
+  bottom: 8px;
+  right: 0;
+  font-size: 18px;
+  position: absolute;
+  padding-right: 200px;
+  color: #9a7d7d;	
+}
+.store{
+	margin-top: 100px;  
+   color: #9a7d7d;
+   margin-left: 20px;
+	}
+
+.about{
+  color: #9a7d7d;
+}
+
+
+.ceo{
+	margin-top: 100px;
+	text-align: center;
+	color: #9a7d7d;
+}	
+
+  .container{
+    display: flex;
+  }    
+        
+.image{
+  	margin-top: 100px;
+   }
+  
+.row{   
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 100px;
+ }
+
+ .thequeen{
+  width: 48%;
+  color: #9a7d7d; 
+
+ }
+
+
+.jummie{
+  margin-top: 100px;
+  background-image: url(../images/jumoke.jpeg);
+  padding-bottom: 900px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:  auto;
+}
+
+.jum{
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+ 

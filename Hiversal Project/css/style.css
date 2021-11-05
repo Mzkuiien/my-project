@@ -1,0 +1,145 @@
+ /*form {
+        background-color: orange;
+        width: 300px;
+        height: 44px;
+        border-radius: 5px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        margin-top: 10px;
+
+      }
+
+      input {
+        all: unset;
+        font: 16px system-ui;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        padding: 6px 10px;
+      }
+
+      ::placeholder {
+        color: #fff;
+        opacity: 0.7; 
+
+      }
+
+      svg {
+        color: #fff;
+        fill: currentColor;
+        width: 50px;
+        height: 40px;
+        padding: 10px;
+      }
+
+      button {
+        all: unset;
+        cursor: pointer;
+        width: 44px;
+        height: 55px;
+      }
+*/
+
+
+
+
+.home-newsletter {
+padding: 80px 0;
+background: orange;
+}
+
+.home-newsletter .single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.home-newsletter .single h2 {
+font-size: 22px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 40px; }
+.home-newsletter .single .form-control {
+height: 50px;
+background: rgba(255, 255, 255, 0.6);
+border-color: transparent;
+border-radius: 20px 0 0 20px; }
+.home-newsletter .single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; }
+.home-newsletter .single .btn {
+min-height: 50px; 
+border-radius: 0 20px 20px 0;
+background: #243c4f;
+color: #fff;
+}
+
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: orange;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.sub{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.jumbotron {
+  float: left;
+  margin-top: 10px;
+  margin-left: 50px;
+
+}
+
+
+hr{
+  background-color: orange;
+}
+
+.vl {
+  border-left: 4px solid orange;
+  height: 50px;
+}
+
+.footer{
+  float: right;
+  margin-top: 20px;
+}
+
+.text{
+  float: right;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+     
